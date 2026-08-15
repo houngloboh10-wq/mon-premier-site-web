@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mon Portfolio</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://images.unsplash.com">
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#accueil" class="logo">Portfolio<span>.</span></a>
+    <nav class="nav" id="nav">
+      <a href="#accueil">Accueil</a>
+      <a href="#apropos">À propos</a>
+      <a href="#competences">Compétences</a>
+      <a href="#projets">Projets</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Ouvrir le menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="hero" id="accueil">
+  <div class="container hero__inner">
+    <div class="hero__text">
+      <p class="hero__hello">Bonjour, je m'appelle</p>
+      <h1>Votre Nom</h1>
+      <h2>Développeur Web &amp; Créatif</h2>
+      <p class="hero__desc">
+        Je conçois des sites web modernes, rapides et agréables à utiliser.
+        Bienvenue sur mon portfolio !
+      </p>
+      <div class="hero__actions">
+        <a href="#projets" class="btn btn--primary">Voir mes projets</a>
+        <a href="#contact" class="btn btn--outline">Me contacter</a>
+      </div>
+    </div>
+    <div class="hero__image">
+      <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?auto=format&fit=crop&w=600&q=80" alt="Photo de profil">
+    </div>
+  </div>
+</section>
+
+<section class="section" id="apropos">
+  <div class="container about">
+    <div class="about__image">
+      <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=700&q=80" alt="Espace de travail avec ordinateur portable">
+    </div>
+    <div class="about__text">
+      <p class="eyebrow">À propos de moi</p>
+      <h2>Qui suis-je ?</h2>
+      <p>
+        Passionné(e) par le développement web, je crée des expériences numériques
+        simples, élégantes et efficaces. Ce portfolio est mon tout premier site :
+        il présente qui je suis, ce que je sais faire, et quelques projets réalisés.
+      </p>
+      <p>
+        N'hésitez pas à modifier ce texte pour parler de votre parcours, vos études,
+        vos passions et vos objectifs professionnels.
+      </p>
+      <div class="about__stats">
+        <div>
+          <span class="stat__num">3+</span>
+          <span class="stat__label">Projets</span>
+        </div>
+        <div>
+          <span class="stat__num">1</span>
+          <span class="stat__label">Année d'apprentissage</span>
+        </div>
+        <div>
+          <span class="stat__num">100%</span>
+          <span class="stat__label">Motivation</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt" id="competences">
+  <div class="container">
+    <p class="eyebrow center">Mes compétences</p>
+    <h2 class="center">Ce que je sais faire</h2>
+    <div class="skills">
+      <div class="skill-card">
+        <div class="skill-card__icon">🌐</div>
+        <h3>HTML5</h3>
+        <div class="bar"><span style="width:90%"></span></div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card__icon">🎨</div>
+        <h3>CSS3</h3>
+        <div class="bar"><span style="width:80%"></span></div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card__icon">⚡</div>
+        <h3>JavaScript</h3>
+        <div class="bar"><span style="width:65%"></span></div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card__icon">📱</div>
+        <h3>Responsive Design</h3>
+        <div class="bar"><span style="width:75%"></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="projets">
+  <div class="container">
+    <p class="eyebrow center">Mes réalisations</p>
+    <h2 class="center">Projets</h2>
+    <div class="projects">
+      <article class="project-card">
+        <div class="project-card__img">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=700&q=80" alt="Écran de code">
+        </div>
+        <div class="project-card__body">
+          <h3>Application Web</h3>
+          <p>Une application front-end réalisée avec HTML, CSS et JavaScript.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+        </div>
+      </article>
+      <article class="project-card">
+        <div class="project-card__img">
+          <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=700&q=80" alt="Espace de travail créatif">
+        </div>
+        <div class="project-card__body">
+          <h3>Site Vitrine</h3>
+          <p>Un site vitrine responsive pour présenter une activité ou un projet.</p>
+          <div class="tags"><span>Design</span><span>UX</span></div>
+        </div>
+      </article>
+      <article class="project-card">
+        <div class="project-card__img">
+          <img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=700&q=80" alt="Bureau minimaliste">
+        </div>
+        <div class="project-card__body">
+          <h3>Portfolio Personnel</h3>
+          <p>Le site que vous consultez en ce moment, conçu de A à Z.</p>
+          <div class="tags"><span>Portfolio</span><span>Responsive</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt" id="contact">
+  <div class="container contact">
+    <div class="contact__text">
+      <p class="eyebrow">Contact</p>
+      <h2>Travaillons ensemble</h2>
+      <p>Une question, une idée de projet ? Envoyez-moi un message.</p>
+      <ul class="contact__list">
+        <li>📧 votre.email@exemple.com</li>
+        <li>📍 Votre ville, Pays</li>
+      </ul>
+    </div>
+    <form class="contact__form" id="contactForm">
+      <label>
+        Nom
+        <input type="text" name="name" required placeholder="Votre nom">
+      </label>
+      <label>
+        Email
+        <input type="email" name="email" required placeholder="vous@exemple.com">
+      </label>
+      <label>
+        Message
+        <textarea name="message" rows="5" required placeholder="Votre message..."></textarea>
+      </label>
+      <button type="submit" class="btn btn--primary">Envoyer</button>
+      <p class="form-note" id="formNote"></p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <p>&copy; <span id="year"></span> Votre Nom. Tous droits réservés.</p>
+    <div class="socials">
+      <a href="#" aria-label="GitHub">GitHub</a>
+      <a href="#" aria-label="LinkedIn">LinkedIn</a>
+      <a href="#" aria-label="Twitter">Twitter</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
